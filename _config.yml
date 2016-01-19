@@ -7,7 +7,7 @@ relative_permalinks: true
 #setup
 title:			Jeffrey Yeung
 tagline:		The Engineer
-url:			jeffreyyeung.com
+url:			http://jbyeung.github.io/jbyeung.github.io/
 paginate:		5
 baseurl:		"http://jbyeung.github.io/jbyeung.github.io/"
 
@@ -33,7 +33,7 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://jbyeung.github.io/jbyeung.github.io/
 
 
 gems:
