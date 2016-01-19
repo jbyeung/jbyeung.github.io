@@ -7,9 +7,9 @@ relative_permalinks: true
 #setup
 title:			Jeffrey Yeung
 tagline:		The Engineer
-url:			http://jbyeung.github.io/jbyeung.github.io/
+url:			jeffreyyeung.com
 paginate:		5
-baseurl:		"http://jbyeung.github.io/jbyeung.github.io/"
+baseurl:		"jeffreyyeung.com"
 
 # Assets
 #
