@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+image: /assets/front_matter_image.png
 ---
 
 <p class="message">

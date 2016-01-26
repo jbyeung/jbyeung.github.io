@@ -1,3 +1,17 @@
+# Navigation Bar
+pages_list:       
+  About: '/about'
+  Projects: '/projects'
+  Photography: '/photography'
+  Archive: '/archive'
+  Feed: '/atom.xml'
+
+# Collections
+
+collections:
+  projects:
+    output: true
+  
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -7,7 +21,7 @@ relative_permalinks: false
 #setup
 title:			Jeffrey Yeung
 tagline:		The Engineer
-url:			http://jeffreyyeung.com
+url:			jeffreyyeung.com
 paginate:		5
 baseurl:		""
 
@@ -26,16 +40,44 @@ unpublished: false
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jeffrey Yeung
+  url:               https://twitter.com/jbyeung
+  email:             jeffrey@jeffreyyeung.com
+
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble: 
+  email: jeffrey@jeffreyyeung.com
+  facebook: 
+  flickr: jbyeung
+  github: jbyeung
+  instagram: 
+  linkedin: jeffreyyeung
+  pinterest: 
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: jbyeung
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+
 
 # Custom vars
 version:             2.0.0
 github:
   repo:              https://jbyeung.github.io/jbyeung.github.io/
 
+disqusid: jeffreyyeung
+
+flickr:
+  cache_dir:					./_cache/flickr
+  api_key:					2b3099f6f358556c0c5b4e56fe0cdfae
+  shared_secret:				0bca4939b2ff6b7e
+  access_token:				72157661464150074-ec02ccf08a632b6a
+  access_secret:				786d15e22a901688
+
+image: /assets/default_cover.jpg
 
 gems:
 - jekyll-paginate
 - jekyll-gist
+- jekyll-auto-image
+- flickraw
