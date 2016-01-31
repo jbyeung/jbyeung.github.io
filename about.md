@@ -4,28 +4,12 @@ title: About
 image: /assets/front_matter_image.png
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<img align="left" src="/assets/profile.jpg" width="33%" height="33%" style="margin-right:50px">
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hi!  I'm Jeffrey Yeung, an engineer living in Ann Arbor, Michigan.  I'm passionate about using technology to improve the future of our society and world.  I also enjoy food and photography.
 
-There are currently two themes built on Poole:
+I currently work at Ford Motor Company in the research department.  
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I have background in multiple facets of science and engineering, from physics to biomedical engineering and cancer genomics to electrical and software engineering.  
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+You can find out more about me through [LinkedIn](http://linkedin.com/in/jeffreyyeung), or if you want to connect, use one of the social media buttons below.

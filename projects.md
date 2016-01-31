@@ -3,8 +3,11 @@ layout: projects-home
 title: Projects
 ---
 
+Currently working on getting projects up here.  Here is my [Maker Challenge](https://docs.google.com/document/d/1PZW5yDg5pPCHIhhwgW4nG17uZn1w1zkrRuF-rJCwB88) list.
 
+<!-- 
 <div class="posts clearfix">
+
   {% for project in site.projects %}
     <article class="post">    
       <h1><a href="{{ project.url }}">{{ project.title }}</a></h1>
@@ -13,9 +16,7 @@ title: Projects
         <p>{{ project.description }}</p>
         {{ project.content | truncatewords:40}}
   </div>
-      
-      <!-- <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> -->
-      <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read more</a>
+
     </article>
   {% endfor %}
-</div>
+</div> -->

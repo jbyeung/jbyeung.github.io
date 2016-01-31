@@ -2,7 +2,7 @@
 pages_list:       
   About: '/about'
   Projects: '/projects'
-  Photography: '/photography'
+  # Photography: '/photography'
   Archive: '/archive'
   Feed: '/atom.xml'
 
