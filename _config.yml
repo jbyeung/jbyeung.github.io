@@ -21,7 +21,7 @@ relative_permalinks: false
 #setup
 title:			Jeffrey Yeung
 tagline:		The Engineer
-url:			jeffreyyeung.com
+url:			  jyeung.me
 paginate:		5
 baseurl:		""
 
@@ -42,13 +42,13 @@ unpublished: false
 author:
   name:              Jeffrey Yeung
   url:               https://twitter.com/jbyeung
-  email:             jeffrey@jeffreyyeung.com
+  email:             jeff@jyeung.me
 
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble: 
-  email: jeffrey@jeffreyyeung.com
+  email: jeff@jyeung.me
   facebook: 
   flickr: jbyeung
   github: jbyeung
