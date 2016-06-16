@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAbBuLS3vhjefXrnrAmJDAC09TTVi6T8lo",
+	    authDomain: "ford-rsdl.firebaseapp.com",
+	    databaseURL: "https://ford-rsdl.firebaseio.com",
+	    storageBucket: "ford-rsdl.appspot.com",
+	  };
+	  firebase.initializeApp(config);
+	</script>
+</head>
+
+<body>
+
+
+
+Name: <input type="text" name="name" value="John"><br>
+Car: <input type="text" name="car" value="Focus"><br>
+
+<button onclick="addNewCar(name, car)">
+	Write data
+</button>
+
+
+<p id="demo"></p>
+
+<script>
+function writeData() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+
+function addNewCar(name, car) {
+  // A post entry.
+  var postData = {
+    name: name,
+    car: car
+  };
+
+  // Get a key for a new Post.
+  var newPostKey = firebase.database().ref().child('cars').push().key;
+
+  // Write the new post's data simultaneously in the posts list and the user's post list.
+  var updates = {};
+  updates['/cars/' + newPostKey] = postData;
+  //updates['/user-posts/' + uid + '/' + newPostKey] = postData;
+
+  return firebase.database().ref().update(updates);
+}
+</script>
+
+
+</body>
+
+
+
+</html>
