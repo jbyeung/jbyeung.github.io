@@ -1,5 +1,5 @@
 # Navigation Bar
-pages_list:
+pages_list:       
   About: '/about'
   Projects: '/projects'
   # Photography: '/photography'
@@ -11,7 +11,7 @@ pages_list:
 collections:
   projects:
     output: true
-
+  
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -47,14 +47,14 @@ author:
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  dribbble: 
   email: jeffrey@jeffreyyeung.com
-  facebook:
+  facebook: 
   flickr: jbyeung
   github: jbyeung
-  instagram:
+  instagram: 
   linkedin: jeffreyyeung
-  pinterest:
+  pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: jbyeung
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
