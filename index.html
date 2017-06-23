@@ -3,10 +3,10 @@ layout: home
 title: Home
 ---
 
-
+<!--
 <div class="posts clearfix">
   {% for post in site.posts %}
-    <article class="post">    
+    <article class="post">
       <div class="eyebrow">{{ post.date | date: "%d %b %Y" }}</div>
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
@@ -14,14 +14,15 @@ title: Home
         <p>{{ post.desc }}</p>
         {{ post.content | truncatewords:40}}
   </div>
-      
+-->
       <!-- <a href="{{ post.proj-url }}" class="small-link primary-link" target="_blank">View Project Site <i class="fa fa-external-link"></i></a> -->
+<!--
       <a href="{{ site.baseurl }}{{ post.url }}" class="small-link">Read more</a>
     </article>
   {% endfor %}
 </div>
+-->
 
-<!-- 
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
@@ -50,4 +51,3 @@ title: Home
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
- -->
