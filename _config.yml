@@ -11,6 +11,8 @@ pages_list:
 collections:
   projects:
     output: true
+  food:
+    output: true
 
 # Permalinks
 #
