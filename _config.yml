@@ -2,7 +2,7 @@
 pages_list:
   Projects: '/projects'
   Food: '/food'
-  Photography: '/photography'
+  Photos: '/photos'
   #Archive: '/archive'
   About: '/about'
 
@@ -10,6 +10,8 @@ pages_list:
 
 collections:
   projects:
+    output: true
+  photos:
     output: true
 
 # Permalinks

@@ -7,6 +7,9 @@ title: Projects
 
   {% for project in site.projects %}
     <article class="post">    
+      {% if project.image %}
+      	<img src="../assets/{{ project.image }}" class="thumbnail">
+      {% endif %}
       <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
 
       <div class="entry">
