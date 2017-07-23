@@ -7,12 +7,12 @@ title: Food Recipes
 
   {% for food in site.food %}
     <article class="post">    
-    {% if food.image %}
-    <a href="{{ food.url }}"><img src="../assets/food/{{ food.image }}" class="thumbnail">
+    <a href="{{ food.url }}">
+      {% if food.image %}
+      <img src="../assets/food/{{ food.image }}" class="thumbnail">
+      {% endif %}
+    <center>{{ photo.title }}</center>
     </a>
-    <!--<center>{{ photo.title }}</center>-->
-
-    {% endif %}
     </article>
   {% endfor %}
 </div>
