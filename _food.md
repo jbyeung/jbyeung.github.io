@@ -1,20 +1,18 @@
 ---
 layout: food-home
-title: Food
+title: Food Recipes
 ---
 
 <div class="posts clearfix">
 
   {% for food in site.food %}
     <article class="post">    
-      <h3><a href="{{ food.url }}">{{ food.title }}</a></h3>
+    {% if food.image %}
+    <a href="{{ food.url }}"><img src="../assets/food/{{ food.image }}" class="thumbnail">
+    </a>
+    <!--<center>{{ photo.title }}</center>-->
 
-      <div class="entry">
-        <p>{{ food.description }}</p>
-      </div>
-
-      <a href="{{ food.url }}" class="small-link primary-link">View Post</a>
-
+    {% endif %}
     </article>
   {% endfor %}
 </div>
