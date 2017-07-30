@@ -10,9 +10,9 @@ title: Food Recipes
     {% if food.image %}
     <a href="{{ food.url }}"><img src="../assets/food/{{ food.image }}" class="thumbnail">
     </a>
-    <!--<center>{{ photo.title }}</center>-->
-
     {% endif %}
+
+    <center>{{ food.title }}</center>
     </article>
   {% endfor %}
 </div>
