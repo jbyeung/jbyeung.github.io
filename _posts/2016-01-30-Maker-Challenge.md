@@ -13,9 +13,10 @@ The inspiration is from [Mega Maker](http://megamaker.co)
 
 I made this list and showed it to my wife, and now I finally have finished one of my items - to start this website - I can chronicle the items here.  I've meant to start this site for a while so I can blog about things I want to make or societal trends, and also give myself some web presence for a portfolio.  
 
-But I never started it, even though I planned it out year after year after year. 
+But I never started it, even though I planned it out year after year after year.
 
 Why did that happen?  I realized I'm great at setting goals, and even at strategizing them out and organizing to-do lists, but I'm terrible at finishing things.
+<!--excerpt-->
 
 So now I have this list up in a Google Doc makes it easier to track history and share it, and also access it anywhere) - I have it in a pinned tab right next to my Inbox and OneTab (https://www.one-tab.com/ - best extension you'll ever install in Chrome).  I have a weekly recurring Wunderlist task to review the MakerList and see if I need to break out other tasks to knock off some more items.  And when I think of new ideas, I add them to the list.
 

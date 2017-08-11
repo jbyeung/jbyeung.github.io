@@ -156,13 +156,14 @@ h1 {
   float: left;
   vertical-align: top;
   margin: 0 20px 20px 0;
-  height: 360px;
+  min-height: 300px;
   overflow: hidden;
   @include mobile {
     margin: 0 20px;
     width: 300px;
   }
 }
+
 
 #home .post h1 {
   font-size: 24px;
@@ -314,6 +315,17 @@ img {
   @include mobile {
     text-align: center;
   }
+}
+.masthead:after {
+  display:block;
+  content: ' ';
+  border-bottom: solid 3px #019fb6;
+  transform: scaleX(0.0001);
+  transition: transform 250ms ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .site-avatar {

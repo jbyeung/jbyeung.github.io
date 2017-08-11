@@ -33,6 +33,7 @@ Device A (the proxy) creates an entity on Firebase with a unique ID, and sits wa
     database.getReference().updateChildren(childUpdates);
 
 
+<!--excerpt-->
 Device B can then make a request by adding a child to this table:
 
     // Device B: an iOS device (Swift)
