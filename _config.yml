@@ -3,7 +3,7 @@ pages_list:
   Projects: '/projects'
   Food: '/food'
   Photos: '/photos'
-  #Archive: '/archive'
+  Archive: '/archive'
   About: '/about'
 
 # Collections
