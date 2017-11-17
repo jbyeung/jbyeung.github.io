@@ -12,4 +12,4 @@ I currently work at Ford Motor Company in the research department on next-gen mo
 
 You can find out more on my [LinkedIn](http://linkedin.com/in/jeffreyyeung), or if you want to connect, use one of the social media buttons below.  
 
-Here is a link to my <a href="assets/Jeffrey-Yeung-Resume.pdf">resume</a>.
+Here is a link to my [resume](http://www.jeffreyyeung.com/assets/Jeffrey-Yeung-Resume.pdf).
